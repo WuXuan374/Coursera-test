@@ -1,0 +1,91 @@
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: lightcyan;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  /* Header */
+  #header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    
+  }
+
+  .navbar-brand{
+      padding-top: 25px;
+  }
+  .navbar-brand a{
+      text-decoration: none;
+  }
+
+  .navbar-brand h1 /*Company Name*/{
+     font-family: Arial, Helvetica, sans-serif;
+     color: blueviolet;
+     font-size: 1.5em;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px #222;
+     margin-top: 0;
+     margin-bottom: 0;
+     line-height: .75;
+     padding-bottom: 20px;
+  }
+   .container{
+      margin-bottom: 7px;
+  } 
+
+  #nav-list{
+      list-style: none;
+      padding-left: 0;
+      background-color: #f6b319;
+      border:0;
+  }
+
+  #nav-list  a{
+    text-align: center;
+    text-decoration: none;
+    color: #951C49;
+    
+  }
+
+  #nav-list p{
+      text-align: center;
+      font-size: 1.5em;
+      border-bottom: 1px solid #951C49; 
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+ /* last item in the list */
+  #nav-list #last{
+    border-bottom: 0; 
+    padding-bottom: 0;
+}
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+/* End of Header*/
+
+/*Main Content*/
+
+#main-content h2{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#menu-content{
+    background-color: blanchedalmond;
+}
+#menu-content h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#menu-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-size: 1.3em;
+}
